@@ -57,6 +57,7 @@ jobs:
         
       - name: Changing Dir
         run: |
+          cd ..
           cd hello2
           pwd
         
