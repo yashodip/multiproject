@@ -51,9 +51,20 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        
+      - name: Install dependencies
+        run: npm build
 
+      - name : Change workinf dir
+        working-directory: ./hello2/
+        
       - name: Changing Dir
-        run: |
-          cd ..
-          cd hello2
-          pwd
+        run: pwd
+        
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Install dependencies
+        run: npm build
+        
+        
