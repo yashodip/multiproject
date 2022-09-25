@@ -1,0 +1,8 @@
+hello1/node_modules/
+hello2/node_modules/
+**/.cache
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
